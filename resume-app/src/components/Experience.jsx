@@ -2,7 +2,7 @@ import './Experience.css'
 
 const experiences = [
   {
-    role: 'Ingénieur Backend (Stage à distance)',
+    role: 'Ingénieur Backend (à distance)',
     company: 'Referso (Startup)',
     period: 'Oct. 2025 – Aujourd\'hui',
     tasks: [
