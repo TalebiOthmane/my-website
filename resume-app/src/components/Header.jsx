@@ -23,7 +23,8 @@ export default function Header() {
           </div>
           <div className="header-info">
             <h1 className="name">Othmane TALEBI</h1>
-            <p className="title">Ingénieur d'État en Informatique et Réseaux — Option MIAGE</p>
+            <p className="title">Ingénieur Full Stack &amp; Backend</p>
+            <p className="stack">Node.js · React · Python/Django · Laravel · APIs REST</p>
           </div>
         </div>
         <div className="contact-grid">
@@ -33,12 +34,16 @@ export default function Header() {
           </a>
           <a href="tel:+212762700945" className="contact-item">
             <span className="contact-icon">📱</span>
-            +212 762700945
+            +212 762 700 945
           </a>
           <span className="contact-item">
             <span className="contact-icon">📍</span>
-            Maghreb Arabi, Bloc D ext. 176, Kenitra, Maroc
+            Kénitra, Maroc
           </span>
+          <a href="https://www.linkedin.com/in/othmane-talebi" target="_blank" rel="noreferrer" className="contact-item">
+            <span className="contact-icon">in</span>
+            linkedin.com/in/othmane-talebi
+          </a>
           <a href="https://github.com/TalebiOthmane" target="_blank" rel="noreferrer" className="contact-item">
             <span className="contact-icon">⌥</span>
             github.com/TalebiOthmane

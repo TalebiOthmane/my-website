@@ -2,15 +2,15 @@ import './Education.css'
 
 const education = [
   {
-    degree: "Diplôme d'ingénierie d'État en Informatique et Réseaux — Option MIAGE",
-    school: 'École Marocaine des Sciences de l\'Ingénieur',
+    degree: "Diplôme d'Ingénieur d'État en Informatique et Réseaux — option MIAGE",
+    school: "École Marocaine des Sciences de l'Ingénieur (EMSI)",
     location: 'Rabat, Maroc',
     period: 'Oct. 2020 – Juin 2025',
   },
   {
     degree: 'Baccalauréat en Sciences Physiques',
-    school: 'Lycée Palmerie',
-    location: 'Kenitra, Maroc',
+    school: 'Lycée Palmeraie',
+    location: 'Kénitra, Maroc',
     period: '2019 – 2020',
   },
 ]

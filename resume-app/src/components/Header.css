@@ -96,3 +96,9 @@
     align-items: flex-start;
   }
 }
+
+.stack {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.6);
+  margin: 0.2rem 0 0;
+}

@@ -2,31 +2,31 @@ import './Skills.css'
 
 const skills = [
   {
-    category: 'Front-end',
-    items: ['HTML', 'CSS', 'Bootstrap', 'React', 'Angular', 'JavaScript', 'TypeScript'],
+    category: 'Back-end',
+    items: ['Node.js', 'Express.js', 'Python', 'Django', 'Laravel', 'PHP', 'Java', 'Spring', 'Jakarta EE', 'C++'],
   },
   {
-    category: 'Back-end',
-    items: ['Java', 'Spring', 'Jakarta EE', 'Node.js', 'C++', 'Python', 'Laravel', 'PHP'],
+    category: 'Front-end',
+    items: ['React', 'React-Admin', 'Angular', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'Bootstrap'],
   },
   {
     category: 'Bases de données',
-    items: ['PostgreSQL', 'MySQL', 'Microsoft SQL Server', 'Oracle 11g'],
+    items: ['Microsoft SQL Server', 'PostgreSQL', 'MySQL', 'Oracle 11g'],
   },
   {
-    category: 'Modélisation',
-    items: ['Merise', 'UML'],
+    category: 'Analyse & modélisation',
+    items: ['Recueil des besoins', 'Analyse des KPI', 'Besoin métier → solution fonctionnelle', 'UML', 'Merise'],
   },
   {
-    category: 'Outils',
-    items: ['Git', 'GitHub', 'Docker', 'Maven', 'Azure Pipelines', 'Kubernetes', 'Scrum', 'LATEX'],
+    category: 'Outils & méthodes',
+    items: ['Git', 'GitHub', 'Bitbucket', 'Docker', 'Kubernetes', 'Maven', 'Azure Pipelines', 'Jira', 'Agile (Scrum)', 'LaTeX'],
   },
 ]
 
 export default function Skills() {
   return (
     <div className="section-card">
-      <h2 className="section-title">Compétences</h2>
+      <h2 className="section-title">Compétences techniques</h2>
       <div className="skills-list">
         {skills.map((group, i) => (
           <div key={i} className="skill-group">

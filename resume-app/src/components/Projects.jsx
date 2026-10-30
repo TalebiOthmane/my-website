@@ -3,30 +3,30 @@ import './Projects.css'
 const projects = [
   {
     name: 'Application de gestion des candidatures de stage',
-    tech: ['Design Pattern', 'JEE', 'Spring Boot', 'AI'],
+    tech: ['Spring Boot', 'JEE', 'Design Patterns', 'Classification par IA'],
   },
   {
-    name: "Application de gestion des hôpitaux",
-    tech: ['UML', 'Design Pattern', 'JEE', 'Spring Boot'],
-  },
-  {
-    name: 'Application mobile de gestion des recettes',
-    tech: ['Java Mobile', 'JIRA'],
-  },
-  {
-    name: 'Chatbot pour un café local',
-    tech: ['IA'],
+    name: 'Application de gestion hospitalière',
+    tech: ['UML', 'Spring Boot', 'JEE', 'Design Patterns'],
   },
   {
     name: 'Plateforme de gestion des stocks',
     tech: ['JEE'],
+  },
+  {
+    name: 'Application mobile de gestion de recettes',
+    tech: ['Java Mobile', 'Jira'],
+  },
+  {
+    name: 'Chatbot pour un café local',
+    tech: ['IA'],
   },
 ]
 
 export default function Projects() {
   return (
     <div className="section-card">
-      <h2 className="section-title">Projets</h2>
+      <h2 className="section-title">Projets académiques</h2>
       <div className="projects-list">
         {projects.map((project, i) => (
           <div key={i} className="project-item">
